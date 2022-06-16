@@ -1,13 +1,13 @@
-package com.web.app;
+package com.hello.test;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Application {
+public class HelloServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
+		SpringApplication.run(HelloServiceApplication.class, args);
 	}
 
 }
