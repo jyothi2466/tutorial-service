@@ -11,7 +11,7 @@ public class HelloController {
 	@GetMapping("/say")
 	public String sayHello() {
 		System.out.println("hello!");
-		return "Welcome to Hello World......Hello Satheesh Chepuri";
+		return "Welcome to Hello World.....let's start Docker Hub";
 	}
 
 }
